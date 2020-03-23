@@ -2,6 +2,8 @@ import pyautogui as auto
 import time
 from getWords import baiduOCR
 import win32gui,win32api
+class ArknightsErr(Exception):
+    pass
 class Arknights():
     def __init__(self,password='',APP_ID='',API_KEY='',SECRECT_KEY='',path=''):
         self.logfilepath = "output\\log.txt"
@@ -37,20 +39,24 @@ class Arknights():
         auto.click(xstart+xdistance,ystart+ydistance)
         self.delay(0.5)
 
-    def to(self,name,targetname=None,timeoutforname=10,timeoutfortarget=10):
+    def to(self,name,targetname=None,timeoutforname=10,timeoutfortarget=10,israiseErr=True):
         self.log("name:"+str(name)+" targetname:"+str(targetname)+'\n')
         cnt = 0
         while True:
             cnt+=1
+            self.foucusOnTheWindow()
             pos = self.getTag(name)
             if(pos != None):break
             self.delay(1)
             if(cnt>=timeoutforname):
                 self.log("can't find : "+name)
-                return False
+                if(israiseErr):
+                    raise ArknightsErr("can't find tag:"+name)
+                return
         cnt = 0
         while True:
             cnt+=1
+            self.foucusOnTheWindow()
             self.click(pos)
             self.delay(1)
             if(targetname == None):break
@@ -60,8 +66,10 @@ class Arknights():
                 if(self.getTag(targetname) != None):break
             if(cnt>=timeoutfortarget):
                 self.log("no reaction by pressing : " + name)
-                return False
-        return True
+                if(israiseErr):
+                    raise ArknightsErr("can't find tag:"+targetname)
+                return
+        return
 
     def backToMenu(self):
         self.foucusOnTheWindow()
@@ -109,9 +117,10 @@ class Arknights():
         self.to("exitarknights", "exitarknights")
 
     def mumuInit(self):
-        win32api.ShellExecute(0, 'open', self.path,'', '', 1)
-        while(self.foucusOnTheWindow()==False):self.delay(1)
-        self.log("waiting for mumu being ready",end="")
+        if(win32gui.FindWindow(None, "MuMu模拟器") == 0):
+            win32api.ShellExecute(0, 'open', self.path,'', '', 1)
+            while(self.foucusOnTheWindow()==False):self.delay(1)
+            self.log("waiting for mumu being ready",end="")
         while True:
             self.log(".",end="")
             if(self.getTag("maximizemumu")!=None):
@@ -203,7 +212,7 @@ class Arknights():
             self.to(level,"kaishixingdong")
             if(self.getTag("dailizhihui_ON")==None):
                 self.to("dailizhihui_OFF","dailizhihui_ON")
-            self.to("kaishixingdong","kaishixingdong")
+            self.to("kaishixingdong")
             if(self.getTag("lizhihaojin")!=None):
                 self.to("lizhihaojin","lizhihaojin")
                 self.log("run out of itellect")
@@ -222,14 +231,22 @@ class Arknights():
         cnt = 0
         self.backToMenu()
         self.to("zuozhan","wuzichoubei")
-        self.to("wuzichoubei",part)
+        self.to("wuzichoubei")
+        self.delay(2)
+        while(self.getTag(part) == None):
+            if(cnt>5):
+                self.log("the part is not open today")
+                return
+            self.drag(xdistance=-500, speed=500)
+            cnt+=1
+        cnt=0
         self.to(part,level)
         while True:
             cnt += 1
             self.to(level,"kaishixingdong")
             if(self.getTag("dailizhihui_ON")==None):
                 self.to("dailizhihui_OFF","dailizhihui_ON")
-            self.to("kaishixingdong","kaishixingdong")
+            self.to("kaishixingdong")
             if(self.getTag("lizhihaojin")!=None):
                 self.to("lizhihaojin","lizhihaojin")
                 self.log("run out of itellect")
@@ -255,7 +272,7 @@ class Arknights():
             self.to(level,"kaishixingdong")
             if(self.getTag("dailizhihui_ON")==None):
                 self.to("dailizhihui_OFF","dailizhihui_ON")
-            self.to("kaishixingdong","kaishixingdong")
+            self.to("kaishixingdong")
             if(self.getTag("lizhihaojin")!=None):
                 self.to("lizhihaojin","lizhihaojin")
                 self.log("run out of itellect")
@@ -280,7 +297,7 @@ class Arknights():
             self.to(part,"kaishixingdong")
             if(self.getTag("dailizhihui_ON")==None):
                 self.to("dailizhihui_OFF","dailizhihui_ON")
-            self.to("kaishixingdong","kaishixingdong")
+            self.to("kaishixingdong")
             if(self.getTag("lizhihaojin")!=None):
                 self.to("lizhihaojin","lizhihaojin")
                 self.log("run out of itellect")
@@ -358,6 +375,10 @@ class Arknights():
         interllect = baiduOCR(loc, self.APP_ID, self.API_KEY, self.SECRECT_KEY)
         print(interllect)
         return interllect
+
+    def getScreenShot(self):
+        loc = r"imgs\\screenshot\\screenshot.jpg"
+        auto.screenshot().save(loc)
 
 if __name__ == "__main__":
     ark = Arknights()

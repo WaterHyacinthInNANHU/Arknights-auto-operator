@@ -47,7 +47,16 @@ import win32api,win32gui,time,win32con
 
 # win32api.ShellExecute(0, 'open', 'C:\\Program Files (x86)\\MuMu\\emulator\\nemu\\EmulatorShell\\NemuPlayer.exe', '', '', 1)
 
-hwnd = win32gui.FindWindow(None, "MuMu模拟器")
-if (hwnd == None):
-    pass
-win32gui.SetForegroundWindow(hwnd)
+# hwnd = win32gui.FindWindow(None, "MuMu模拟器")
+# if (hwnd == None):
+#     pass
+# win32gui.SetForegroundWindow(hwnd)
+
+import itchat
+loc = "imgs\\2-6.jpg"
+itchat.auto_login(hotReload=True)
+itchat.send(u'Arkights operator:已连接', 'filehelper')
+mediaId  = itchat.upload_file(loc,isPicture=True)
+print(mediaId)
+# itchat.run()
+# print(mediaId)
