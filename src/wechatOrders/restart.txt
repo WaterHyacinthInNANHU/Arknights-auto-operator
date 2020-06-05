@@ -1,0 +1,3 @@
+ark.exitMumu()
+ark.delay(5)
+ark.mumuInit()

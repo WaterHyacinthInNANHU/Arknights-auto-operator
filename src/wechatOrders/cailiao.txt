@@ -1,0 +1,1 @@
+itchat.send(str(ark.generateMaterialList()), 'filehelper')

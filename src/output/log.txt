@@ -1,0 +1,236 @@
+name:zuozhan targetname:xinpiansousuo
+
+name:xinpiansousuo targetname:cuikulaxiu
+
+name:cuikulaxiu targetname:PR-B-2
+
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 1 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 1 finished
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 2 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 2 finished
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:lizhihaojin targetname:lizhihaojin
+
+run out of itellect
+name:zuozhan targetname:xinpiansousuo
+
+name:xinpiansousuo targetname:cuikulaxiu
+
+name:cuikulaxiu targetname:PR-B-2
+
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 1 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 1 finished
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:lizhihaojin targetname:lizhihaojin
+
+run out of itellect
+waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
+
+start operating
+name:arknight_launcher targetname:arknight_launcher
+
+no reaction by pressing : arknight_launcher
+.start operating
+name:arknight_launcher targetname:arknight_launcher
+
+name:login_start targetname:login_start
+
+name:login_kaishihuanxing targetname:login_kaishihuanxing
+
+name:login_relogconfirm targetname:login_relogconfirm
+
+name:login_zhanghaodenglu targetname:login_zhanghaodenglu
+
+name:login_focuspassword targetname:None
+
+name:login_denglu targetname:login_denglu
+
+name:jinripeiji targetname:None
+
+name:close_message targetname:None
+
+login successfully
+name:zuozhan targetname:wuzichoubei
+
+name:wuzichoubei targetname:None
+
+name:huowuyunsong targetname:CE-5
+
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 1 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 1 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 2 begins
+running. . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 2 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 3 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 3 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 4 begins
+running. . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 4 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 5 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 5 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:lizhihaojin targetname:lizhihaojin
+
+run out of itellect
+name:exitmumu_confirm targetname:exitmumu_confirm
+
+waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
+
+start operating
+name:arknight_launcher targetname:arknight_launcher
+
+name:login_start targetname:login_start
+
+name:login_kaishihuanxing targetname:login_kaishihuanxing
+
+name:login_relogconfirm targetname:login_relogconfirm
+
+name:login_zhanghaodenglu targetname:login_zhanghaodenglu
+
+name:login_focuspassword targetname:None
+
+name:login_denglu targetname:login_denglu
+
+name:close_message targetname:None
+
+login successfully
+name:zuozhan targetname:wuzichoubei
+
+name:wuzichoubei targetname:None
+
+name:huowuyunsong targetname:CE-5
+
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 1 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 1 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 2 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 2 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 3 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 3 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 4 begins
+running. . . . . . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 4 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 5 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 5 finished
+name:CE-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 6 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 6 finished
+mission complete
+name:exitmumu_confirm targetname:exitmumu_confirm
+

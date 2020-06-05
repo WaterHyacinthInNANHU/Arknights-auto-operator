@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="553c482d-3c33-4508-a7a7-4da4f85ffcf9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z6gaBBys1el8XDZ5iUroAoQdpz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wechatOrders" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lukyl.LAPTOP-4KFPEFJ6\Desktop\Arknights - wechat\src\wechatOrders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lukyl.LAPTOP-4KFPEFJ6\Desktop\Arknights - wechat\src\singleOriders" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.myserverControl">
+    <configuration name="MyWebServerClient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\lukyl.LAPTOP-4KFPEFJ6\Desktop\Arknights - myserver\src\MyWebServerClient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myserverControl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myserverControl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyqt5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../pyqt5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testfile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webControl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechatOrders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechatOrders/webControl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webControl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\lukyl.LAPTOP-4KFPEFJ6\Desktop\Arknights - myserver\src\webControl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.myserverControl" />
+        <item itemvalue="Python.MyWebServerClient" />
+        <item itemvalue="Python.webControl" />
+        <item itemvalue="Python.webControl" />
+        <item itemvalue="Python.pyqt5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="553c482d-3c33-4508-a7a7-4da4f85ffcf9" name="Default Changelist" comment="" />
+      <created>1584165018376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584165018376</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="151" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584165094176">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="94" y="151" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584165094176" />
+    <state x="419" y="238" key="FileChooserDialogImpl" timestamp="1585606490705">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="419" y="238" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1585606490705" />
+    <state width="1259" height="325" key="GridCell.Tab.0.bottom" timestamp="1587192802824">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1587192802824" />
+    <state width="1515" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587103846738" />
+    <state width="1259" height="325" key="GridCell.Tab.0.center" timestamp="1587192802824">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1587192802824" />
+    <state width="1515" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587103846737" />
+    <state width="1259" height="325" key="GridCell.Tab.0.left" timestamp="1587192802823">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1587192802823" />
+    <state width="1515" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587103846736" />
+    <state width="1259" height="325" key="GridCell.Tab.0.right" timestamp="1587192802824">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1587192802824" />
+    <state width="1515" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587103846737" />
+    <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1587192802824">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1587192802824" />
+    <state width="1259" height="325" key="GridCell.Tab.1.center" timestamp="1587192802824">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1587192802824" />
+    <state width="1259" height="325" key="GridCell.Tab.1.left" timestamp="1587192802824">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1587192802824" />
+    <state width="1259" height="325" key="GridCell.Tab.1.right" timestamp="1587192802824">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1587192802824" />
+    <state x="143" y="138" key="SettingsEditor" timestamp="1584165105861">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="143" y="138" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584165105861" />
+    <state x="276" y="590" key="com.intellij.ide.util.TipDialog" timestamp="1587534907745">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="276" y="590" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1587534907745" />
+    <state x="331" y="483" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586205475618" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1587192169145">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1587192169145" />
+  </component>
+</project>
