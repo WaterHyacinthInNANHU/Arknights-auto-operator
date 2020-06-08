@@ -57,10 +57,8 @@ pip install -r requirements.txt
 
 <b>注意事项</b>
 
-1.项目要以管理员身份运行
+1.运行开始后运行信息会打印在终端，也会保存在log.txt
 
-2.运行开始后运行信息会打印在终端，也会保存在log.txt
+2.生成的MaterialList.txt中的内容可以由[企鹅物流刷图规划器](https://penguin-stats.io/planner)导入，省去自己添加已有材料的麻烦
 
-3.生成的MaterialList.txt中的内容可以由[企鹅物流刷图规划器](https://penguin-stats.io/planner)导入，省去自己添加已有材料的麻烦
-
-4.运行程序时确保系统分辨率为1920*1080，显示比例为125%
+3.运行程序时确保系统分辨率为1920*1080，显示比例为125%
