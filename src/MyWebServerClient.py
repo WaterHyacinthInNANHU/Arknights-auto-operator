@@ -4,6 +4,8 @@ from websocket import create_connection,WebSocketTimeoutException,WebSocketConne
 import threading
 import time
 import queue
+
+
 class MyWebServerClient(object):
     def __init__(self,url,email,password,role,pingtime,onmessage):
         self.ws_recieve = None

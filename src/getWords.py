@@ -14,6 +14,8 @@ def baiduOCR(picfile,APP_ID,API_KEY,SECRECT_KEY):
         # message = client.basicAccurate(img)   # 通用文字高精度识别，每天 800 次免费
 
     print(message)
+    if len(message.get('words_result')) == 0:
+        raise Exception("can't find any words")
     return message.get('words_result')[0].get('words')
 
 if __name__ == "__main__":

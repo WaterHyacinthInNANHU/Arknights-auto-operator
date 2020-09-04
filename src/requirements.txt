@@ -5,4 +5,4 @@ itchat==1.3.10
 pywin32==227
 psutil==5.7.0
 websocket_client==0.57.0
-win32gui==221.6
+win32gui==221.5

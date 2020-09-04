@@ -1,4 +1,4 @@
-import psutil as psutil
+# import psutil as psutil
 import pyautogui as auto
 import time
 from getWords import baiduOCR
@@ -133,6 +133,9 @@ class Arknights(object):
                 self.to("fangqixingdong", "fangqixingdong")
                 self.to("renwushibai", "renwushibai")
                 return False
+            if(self.getTag("reconnect")!=None):
+                self.to("reconnect")
+                return False
 
     def forTest(self):
         self.log("Arknight test")
@@ -154,6 +157,7 @@ class Arknights(object):
         return True
 
     def exitMumu(self):
+        self.daily_tasks()
         hwnd = win32gui.FindWindow(None, "明日方舟 - MuMu模拟器")
         if(hwnd==0):
             hwnd = win32gui.FindWindow(None, "MuMu模拟器")
@@ -238,13 +242,13 @@ class Arknights(object):
                 raise ArknightsErr(errormsg)
             cnt+=1
             if(self.getTag("zuozhan")!=None):
-                self.delay(5)
+                self.delay(3)
                 if(self.getTag("zuozhan")!=None):
                     break
             if(self.getTag("close_message")!=None):
-                self.to("close_message")
-            if (self.getTag("jinripeiji") != None):
-                self.to("jinripeiji")
+                self.to("close_message",israiseErr=False)
+            if (self.getTag("confirm") != None):
+                self.to("confirm",israiseErr=False)
         self.log("login successfully")
 
     def zhuxian(self,part,level,times):
@@ -314,6 +318,8 @@ class Arknights(object):
             if(cnt >= times):
                 self.log("mission complete")
                 return
+            else:
+                self.to("back")
 
     def wuzichoubei(self,part,level,times):
         self.foucusOnTheWindow()
@@ -351,6 +357,8 @@ class Arknights(object):
             if(cnt >= times):
                 self.log("mission complete")
                 return
+            else:
+                self.to("back")
 
     def xinpiansousuo(self,part,level,times):
         self.foucusOnTheWindow()
@@ -380,6 +388,8 @@ class Arknights(object):
             if(cnt >= times):
                 self.log("mission complete")
                 return
+            else:
+                self.to("back")
 
     def jiaomiemoshi(self,part,times):
         self.foucusOnTheWindow()
@@ -408,13 +418,15 @@ class Arknights(object):
             if(cnt >= times):
                 self.log("mission complete")
                 return
+            else:
+                self.to("back")
 
     def activityCheckpoint(self,activityname,part,level,times):#活动关卡
         self.foucusOnTheWindow()
         cnt = 0
         self.backToMenu()
         self.to("zuozhan",activityname)
-        self.to(activityname,part)
+        self.to(activityname,activityname)
         self.delay(2)
         while(self.getTag(part) == None):
             if(cnt>5):
@@ -423,13 +435,35 @@ class Arknights(object):
             self.drag(xdistance=-500, speed=500)
             cnt+=1
         cnt=0
-        self.to(part,level)
+        self.to(part,part)
+        while True:#find level
+            if(cnt>=10):
+                break
+            cnt+=1
+            if(self.getTag(level)==None):
+                self.drag(xdistance=-500,speed=500)
+            else:
+                break
+        if(cnt>=10):
+            cnt=0
+            while True:  # find level
+                if (cnt >= 10):
+                    return
+                cnt += 1
+                if (self.getTag(level) == None):
+                    self.drag(xdistance=500, speed=500)
+                else:
+                    break
+        cnt=0
         while True:
             cnt += 1
-            self.to(level,"kaishixingdong")
+            self.to(level)
             if(self.getTag("dailizhihui_ON")==None):
                 self.to("dailizhihui_OFF","dailizhihui_ON")
-            self.to("kaishixingdong")
+            try:
+                self.to("kaishixingdong")
+            except:
+                self.to("kaishixingdong_activity")
             if(self.getTag("lizhihaojin")!=None):
                 self.to("lizhihaojin","lizhihaojin")
                 self.log("run out of itellect")
@@ -445,6 +479,8 @@ class Arknights(object):
             if(cnt >= times):
                 self.log("mission complete")
                 return
+            else:
+                self.to("back")
 
     def generateMaterialList(self):
         self.foucusOnTheWindow()
@@ -456,13 +492,18 @@ class Arknights(object):
         def back():
             auto.click(1498,164)
         def drag():
-            self.drag(xstart=1706, ystart=403, speed=500, xdistance=-240, ydistance=0)
+            self.drag(xstart=1706, ystart=403, speed=250, xdistance=-240, ydistance=0)
         def getInfo(x,y):
             auto.click(x,y)
             self.delay(1)
             auto.screenshot(region=(424, 262, 672 - 424, 307 - 262)).save(loc1)
             auto.screenshot(region=(1352, 262, 1499 - 1352, 307 - 262)).save(loc2)
-            name = baiduOCR(loc1,self.APP_ID,self.API_KEY,self.SECRECT_KEY)
+            try:
+                name = baiduOCR(loc1,self.APP_ID,self.API_KEY,self.SECRECT_KEY)
+            except:
+                print("can't parse material's name")
+                back()
+                return True
             if(name.find("技巧概要")!=-1 or name.find("芯片助剂")!=-1 or name.find("芯片")!=-1 or name.find("信物")!=-1):
                 print("finding completes")
                 back()
@@ -470,7 +511,12 @@ class Arknights(object):
             if(name.find("作战记录")!=-1):
                 back()
                 return True
-            number = baiduOCR(loc2,self.APP_ID,self.API_KEY,self.SECRECT_KEY)
+            try:
+                number = baiduOCR(loc2,self.APP_ID,self.API_KEY,self.SECRECT_KEY)
+            except:
+                print("can't parse material's number")
+                back()
+                return True
             list.append({"name":name,"need":0,"have":int(number)})
             back()
             return True
@@ -515,8 +561,29 @@ class Arknights(object):
         loc = r"output\\screenshot\\screenshot.jpg"
         auto.screenshot().save(loc)
 
+
+    def daily_tasks(self):
+        self.foucusOnTheWindow()
+        cnt = 0
+        self.backToMenu()
+        self.to("renwu", "renwu")
+        while cnt < 5:
+            self.delay(0.5)
+            if self.getTag('baochouyilingqu') != None:
+                break
+            if self.getTag('dianjilingqu') != None:
+                self.to('dianjilingqu','dianjilingqu')
+                self.delay(2)
+                if self.getTag('confirm') != None:
+                    self.to('confirm','confirm')
+                cnt = 0
+            else:
+                cnt += 1
+        self.backToMenu()
+
 if __name__ == "__main__":
     ark = Arknights()
+    ark.daily_tasks()
     # ark.foucusOnTheWindow()
     #     # ark.generateMaterialList()
     # print(ark.getIntellect())
@@ -553,3 +620,5 @@ if __name__ == "__main__":
     #     except psutil.AccessDenied:
     #         memory_usage = 0
     #     print(process.name()+process.status()+str(memory_usage))
+
+    # ark.generateMaterialList()

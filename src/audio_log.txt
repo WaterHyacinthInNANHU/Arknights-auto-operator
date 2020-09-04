@@ -1,0 +1,2 @@
+Win32PipeStream::writeFully: failed: 232
+AudioPlayThread write back error
