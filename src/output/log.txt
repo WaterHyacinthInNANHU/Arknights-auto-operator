@@ -1,28 +1,273 @@
 name:navigator targetname:navigator_shouye
 
-name:navigator_shouye targetname:navigator_shouye
+can't find : navigator
+waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
 
-name:cangku targetname:cangku
+start operating
+name:arknight_launcher targetname:arknight_launcher
 
-name:yangchengcailiao targetname:None
+name:login_start targetname:login_start
 
-name:navigator targetname:navigator_shouye
+name:login_zhanghaodenglu targetname:login_zhanghaodenglu
 
-name:navigator_shouye targetname:navigator_shouye
+name:login_focuspassword targetname:None
 
-name:cangku targetname:cangku
+name:login_denglu targetname:login_denglu
 
-name:yangchengcailiao targetname:None
+login successfully
+name:zuozhan targetname:xinpiansousuo
 
+name:xinpiansousuo targetname:shenxianshizu
+
+name:shenxianshizu targetname:PR-D-1
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:dailizhihui_OFF targetname:dailizhihui_ON
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 1 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 1 finished
+name:back targetname:None
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 2 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 2 finished
+name:back targetname:None
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 3 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 3 finished
+name:back targetname:None
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 4 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 4 finished
+name:back targetname:None
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 5 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 5 finished
+name:back targetname:None
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 6 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 6 finished
+name:back targetname:None
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 7 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 7 finished
+name:back targetname:None
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:lizhihaojin targetname:lizhihaojin
+
+run out of itellect
 name:navigator targetname:navigator_shouye
 
 name:navigator_shouye targetname:navigator_shouye
 
 name:renwu targetname:renwu
 
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:exitmumu_confirm targetname:exitmumu_confirm
+
+waiting for mumu being ready..name:maximizemumu targetname:maximizemumu
+
+start operating
+name:arknight_launcher targetname:arknight_launcher
+
+name:login_start targetname:login_start
+
+name:login_kaishihuanxing targetname:login_kaishihuanxing
+
+name:login_relogconfirm targetname:login_relogconfirm
+
+name:login_zhanghaodenglu targetname:login_zhanghaodenglu
+
+name:login_focuspassword targetname:None
+
+name:login_denglu targetname:login_denglu
+
+login successfully
+name:zuozhan targetname:xinpiansousuo
+
+name:xinpiansousuo targetname:shenxianshizu
+
+name:shenxianshizu targetname:PR-D-1
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 1 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 1 finished
+name:back targetname:None
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 2 begins
+running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 2 finished
+mission complete
 name:navigator targetname:navigator_shouye
 
 name:navigator_shouye targetname:navigator_shouye
+
+name:renwu targetname:renwu
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:exitmumu_confirm targetname:exitmumu_confirm
+
+waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
+
+start operating
+name:arknight_launcher targetname:arknight_launcher
+
+name:login_start targetname:login_start
+
+name:login_kaishihuanxing targetname:login_kaishihuanxing
+
+login successfully
+name:zuozhan targetname:xinpiansousuo
+
+name:xinpiansousuo targetname:shenxianshizu
+
+name:shenxianshizu targetname:PR-D-1
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:lizhihaojin targetname:lizhihaojin
+
+run out of itellect
+name:navigator targetname:navigator_shouye
+
+name:navigator_shouye targetname:navigator_shouye
+
+name:renwu targetname:renwu
+
+name:exitmumu_confirm targetname:exitmumu_confirm
+
+waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
+
+start operating
+name:arknight_launcher targetname:arknight_launcher
+
+name:login_start targetname:login_start
+
+name:login_kaishihuanxing targetname:login_kaishihuanxing
+
+login successfully
+name:zuozhan targetname:xinpiansousuo
+
+name:xinpiansousuo targetname:shenxianshizu
+
+name:shenxianshizu targetname:PR-D-1
+
+name:PR-D-1 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:lizhihaojin targetname:lizhihaojin
+
+run out of itellect
+name:navigator targetname:navigator_shouye
+
+name:navigator_shouye targetname:navigator_shouye
+
+name:renwu targetname:renwu
 
 name:exitmumu_confirm targetname:exitmumu_confirm
 

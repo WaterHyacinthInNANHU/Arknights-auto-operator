@@ -157,7 +157,22 @@ class Arknights(object):
         return True
 
     def exitMumu(self):
-        self.daily_tasks()
+        #####daily tasks
+        self.foucusOnTheWindow()
+        cnt = 0
+        self.backToMenu()
+        self.to("renwu", "renwu")
+        while cnt < 20:
+            self.delay(0.5)
+            if self.getTag('baochouyilingqu') != None:
+                break
+            if self.getTag('dianjilingqu') != None:
+                self.to('dianjilingqu', 'dianjilingqu')
+                self.to('confirm', 'confirm', timeoutforname=10,israiseErr=False)
+                cnt = 0
+            else:
+                cnt += 1
+        ######
         hwnd = win32gui.FindWindow(None, "明日方舟 - MuMu模拟器")
         if(hwnd==0):
             hwnd = win32gui.FindWindow(None, "MuMu模拟器")
@@ -561,29 +576,8 @@ class Arknights(object):
         loc = r"output\\screenshot\\screenshot.jpg"
         auto.screenshot().save(loc)
 
-
-    def daily_tasks(self):
-        self.foucusOnTheWindow()
-        cnt = 0
-        self.backToMenu()
-        self.to("renwu", "renwu")
-        while cnt < 5:
-            self.delay(0.5)
-            if self.getTag('baochouyilingqu') != None:
-                break
-            if self.getTag('dianjilingqu') != None:
-                self.to('dianjilingqu','dianjilingqu')
-                self.delay(2)
-                if self.getTag('confirm') != None:
-                    self.to('confirm','confirm')
-                cnt = 0
-            else:
-                cnt += 1
-        self.backToMenu()
-
 if __name__ == "__main__":
     ark = Arknights()
-    ark.daily_tasks()
     # ark.foucusOnTheWindow()
     #     # ark.generateMaterialList()
     # print(ark.getIntellect())

@@ -1,2 +1,2 @@
-ark.activityCheckpoint('milinhanjiang','daqiuzhangzhilu','RI-8',1)
+ark.activityCheckpoint('milinhanjiang','daqiuzhangzhilu','RI-8',10)
 #ark.activityCheckpoint('milinhanjiang','daqiuzhangzhilu','RI-7',1) 
