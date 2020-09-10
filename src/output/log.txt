@@ -1,6 +1,3 @@
-name:navigator targetname:navigator_shouye
-
-can't find : navigator
 waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
 
 start operating
@@ -14,152 +11,44 @@ name:login_focuspassword targetname:None
 
 name:login_denglu targetname:login_denglu
 
-login successfully
-name:zuozhan targetname:xinpiansousuo
-
-name:xinpiansousuo targetname:shenxianshizu
-
-name:shenxianshizu targetname:PR-D-1
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:dailizhihui_OFF targetname:dailizhihui_ON
-
-name:kaishixingdong targetname:None
-
-name:kaishixingdong_1 targetname:kaishixingdong_1
-
-round 1 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
-
-round 1 finished
-name:back targetname:None
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:kaishixingdong_1 targetname:kaishixingdong_1
-
-round 2 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
-
-round 2 finished
-name:back targetname:None
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:kaishixingdong_1 targetname:kaishixingdong_1
-
-round 3 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
-
-round 3 finished
-name:back targetname:None
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:kaishixingdong_1 targetname:kaishixingdong_1
-
-round 4 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
-
-round 4 finished
-name:back targetname:None
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:kaishixingdong_1 targetname:kaishixingdong_1
-
-round 5 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
-
-round 5 finished
-name:back targetname:None
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:kaishixingdong_1 targetname:kaishixingdong_1
-
-round 6 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
-
-round 6 finished
-name:back targetname:None
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:kaishixingdong_1 targetname:kaishixingdong_1
-
-round 7 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
-
-round 7 finished
-name:back targetname:None
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:lizhihaojin targetname:lizhihaojin
-
-run out of itellect
+error happened while starting Mumu
 name:navigator targetname:navigator_shouye
 
-name:navigator_shouye targetname:navigator_shouye
+can't find : navigator
+name:navigator targetname:navigator_shouye
 
-name:renwu targetname:renwu
+can't find : navigator
+waiting for mumu being ready.start operating
+error happened while starting Mumu
+name:navigator targetname:navigator_shouye
 
-name:dianjilingqu targetname:dianjilingqu
+can't find : navigator
+name:navigator targetname:navigator_shouye
 
-name:confirm targetname:confirm
+can't find : navigator
+waiting for mumu being ready.start operating
+error happened while starting Mumu
+name:navigator targetname:navigator_shouye
 
-name:dianjilingqu targetname:dianjilingqu
+can't find : navigator
+waiting for mumu being ready.start operating
+error happened while starting Mumu
+name:navigator targetname:navigator_shouye
 
-name:confirm targetname:confirm
+can't find : navigator
+name:navigator targetname:navigator_shouye
 
-name:dianjilingqu targetname:dianjilingqu
-
-name:confirm targetname:confirm
-
-name:dianjilingqu targetname:dianjilingqu
-
-name:confirm targetname:confirm
-
-name:dianjilingqu targetname:dianjilingqu
-
-name:confirm targetname:confirm
-
-name:dianjilingqu targetname:dianjilingqu
-
-name:confirm targetname:confirm
-
-name:dianjilingqu targetname:dianjilingqu
-
-name:confirm targetname:confirm
-
-name:exitmumu_confirm targetname:exitmumu_confirm
-
-waiting for mumu being ready..name:maximizemumu targetname:maximizemumu
+can't find : navigator
+waiting for mumu being ready.start operating
+error happened while starting Mumu
+waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
 
 start operating
+name:close_advertisement targetname:close_advertisement
+
 name:arknight_launcher targetname:arknight_launcher
 
 name:login_start targetname:login_start
-
-name:login_kaishihuanxing targetname:login_kaishihuanxing
-
-name:login_relogconfirm targetname:login_relogconfirm
 
 name:login_zhanghaodenglu targetname:login_zhanghaodenglu
 
@@ -167,35 +56,61 @@ name:login_focuspassword targetname:None
 
 name:login_denglu targetname:login_denglu
 
+name:close_message targetname:None
+
 login successfully
-name:zuozhan targetname:xinpiansousuo
+name:zuozhan targetname:wuzichoubei
 
-name:xinpiansousuo targetname:shenxianshizu
+name:wuzichoubei targetname:None
 
-name:shenxianshizu targetname:PR-D-1
+name:fensuifangyu targetname:AP-5
 
-name:PR-D-1 targetname:kaishixingdong
+name:AP-5 targetname:kaishixingdong
 
 name:kaishixingdong targetname:None
 
 name:kaishixingdong_1 targetname:kaishixingdong_1
 
 round 1 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
 
 round 1 finished
 name:back targetname:None
 
-name:PR-D-1 targetname:kaishixingdong
+name:AP-5 targetname:kaishixingdong
 
 name:kaishixingdong targetname:None
 
 name:kaishixingdong_1 targetname:kaishixingdong_1
 
 round 2 begins
-running. . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
 
 round 2 finished
+name:back targetname:None
+
+name:AP-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 3 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 3 finished
+name:back targetname:None
+
+name:AP-5 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 4 begins
+running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 4 finished
 mission complete
 name:navigator targetname:navigator_shouye
 
@@ -207,67 +122,21 @@ name:dianjilingqu targetname:dianjilingqu
 
 name:confirm targetname:confirm
 
-name:exitmumu_confirm targetname:exitmumu_confirm
+name:dianjilingqu targetname:dianjilingqu
 
-waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
+name:confirm targetname:confirm
 
-start operating
-name:arknight_launcher targetname:arknight_launcher
+name:dianjilingqu targetname:dianjilingqu
 
-name:login_start targetname:login_start
+name:confirm targetname:confirm
 
-name:login_kaishihuanxing targetname:login_kaishihuanxing
+name:dianjilingqu targetname:dianjilingqu
 
-login successfully
-name:zuozhan targetname:xinpiansousuo
+name:confirm targetname:confirm
 
-name:xinpiansousuo targetname:shenxianshizu
+name:dianjilingqu targetname:dianjilingqu
 
-name:shenxianshizu targetname:PR-D-1
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:lizhihaojin targetname:lizhihaojin
-
-run out of itellect
-name:navigator targetname:navigator_shouye
-
-name:navigator_shouye targetname:navigator_shouye
-
-name:renwu targetname:renwu
-
-name:exitmumu_confirm targetname:exitmumu_confirm
-
-waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
-
-start operating
-name:arknight_launcher targetname:arknight_launcher
-
-name:login_start targetname:login_start
-
-name:login_kaishihuanxing targetname:login_kaishihuanxing
-
-login successfully
-name:zuozhan targetname:xinpiansousuo
-
-name:xinpiansousuo targetname:shenxianshizu
-
-name:shenxianshizu targetname:PR-D-1
-
-name:PR-D-1 targetname:kaishixingdong
-
-name:kaishixingdong targetname:None
-
-name:lizhihaojin targetname:lizhihaojin
-
-run out of itellect
-name:navigator targetname:navigator_shouye
-
-name:navigator_shouye targetname:navigator_shouye
-
-name:renwu targetname:renwu
+name:confirm targetname:confirm
 
 name:exitmumu_confirm targetname:exitmumu_confirm
 

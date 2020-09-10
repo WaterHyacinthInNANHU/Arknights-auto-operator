@@ -1,8 +1,8 @@
-PyAutoGUI==0.9.48
-keyboard==0.13.4
+PyAutoGUI==0.9.50
+keyboard==0.13.5
 baidu_aip==2.2.18.0
 itchat==1.3.10
-pywin32==227
+pywin32==223
 psutil==5.7.0
 websocket_client==0.57.0
-win32gui==221.5
+opencv-python==4.3.0
