@@ -11,73 +11,32 @@ name:login_focuspassword targetname:None
 
 name:login_denglu targetname:login_denglu
 
-error happened while starting Mumu
-name:navigator targetname:navigator_shouye
+name:close_message targetname:None
 
-can't find : navigator
-name:navigator targetname:navigator_shouye
-
-can't find : navigator
-waiting for mumu being ready.start operating
-error happened while starting Mumu
-name:navigator targetname:navigator_shouye
-
-can't find : navigator
-name:navigator targetname:navigator_shouye
-
-can't find : navigator
-waiting for mumu being ready.start operating
-error happened while starting Mumu
-name:navigator targetname:navigator_shouye
-
-can't find : navigator
-waiting for mumu being ready.start operating
-error happened while starting Mumu
-name:navigator targetname:navigator_shouye
-
-can't find : navigator
-name:navigator targetname:navigator_shouye
-
-can't find : navigator
-waiting for mumu being ready.start operating
-error happened while starting Mumu
-waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
-
-start operating
-name:close_advertisement targetname:close_advertisement
-
-name:arknight_launcher targetname:arknight_launcher
-
-name:login_start targetname:login_start
-
-name:login_zhanghaodenglu targetname:login_zhanghaodenglu
-
-name:login_focuspassword targetname:None
-
-name:login_denglu targetname:login_denglu
+name:confirm targetname:None
 
 name:close_message targetname:None
 
 login successfully
-name:zuozhan targetname:wuzichoubei
+name:zuozhan targetname:xinpiansousuo
 
-name:wuzichoubei targetname:None
+name:xinpiansousuo targetname:cuikulaxiu
 
-name:fensuifangyu targetname:AP-5
+name:cuikulaxiu targetname:PR-B-2
 
-name:AP-5 targetname:kaishixingdong
+name:PR-B-2 targetname:kaishixingdong
 
 name:kaishixingdong targetname:None
 
 name:kaishixingdong_1 targetname:kaishixingdong_1
 
 round 1 begins
-running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+running. . . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
 
 round 1 finished
 name:back targetname:None
 
-name:AP-5 targetname:kaishixingdong
+name:PR-B-2 targetname:kaishixingdong
 
 name:kaishixingdong targetname:None
 
@@ -89,7 +48,90 @@ running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xing
 round 2 finished
 name:back targetname:None
 
-name:AP-5 targetname:kaishixingdong
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 3 begins
+running. . . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 3 finished
+name:back targetname:None
+
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:lizhihaojin targetname:lizhihaojin
+
+run out of itellect
+name:navigator targetname:navigator_shouye
+
+name:navigator_shouye targetname:navigator_shouye
+
+name:renwu targetname:renwu
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:dianjilingqu targetname:dianjilingqu
+
+name:confirm targetname:confirm
+
+name:exitmumu_confirm targetname:exitmumu_confirm
+
+waiting for mumu being ready.name:maximizemumu targetname:maximizemumu
+
+start operating
+name:arknight_launcher targetname:arknight_launcher
+
+name:login_start targetname:login_start
+
+name:login_kaishihuanxing targetname:login_kaishihuanxing
+
+name:login_relogconfirm targetname:login_relogconfirm
+
+name:login_zhanghaodenglu targetname:login_zhanghaodenglu
+
+name:login_focuspassword targetname:None
+
+name:login_denglu targetname:login_denglu
+
+login successfully
+name:zuozhan targetname:xinpiansousuo
+
+name:xinpiansousuo targetname:cuikulaxiu
+
+name:cuikulaxiu targetname:PR-B-2
+
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 1 begins
+running. . . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 1 finished
+name:back targetname:None
+
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:kaishixingdong_1 targetname:kaishixingdong_1
+
+round 2 begins
+running. . . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
+
+round 2 finished
+name:back targetname:None
+
+name:PR-B-2 targetname:kaishixingdong
 
 name:kaishixingdong targetname:None
 
@@ -101,7 +143,7 @@ running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xing
 round 3 finished
 name:back targetname:None
 
-name:AP-5 targetname:kaishixingdong
+name:PR-B-2 targetname:kaishixingdong
 
 name:kaishixingdong targetname:None
 
@@ -111,7 +153,15 @@ round 4 begins
 running. . . . . . . . . . . . . . . . . . . name:xingdongjieshu targetname:xingdongjieshu
 
 round 4 finished
-mission complete
+name:back targetname:None
+
+name:PR-B-2 targetname:kaishixingdong
+
+name:kaishixingdong targetname:None
+
+name:lizhihaojin targetname:lizhihaojin
+
+run out of itellect
 name:navigator targetname:navigator_shouye
 
 name:navigator_shouye targetname:navigator_shouye
@@ -138,5 +188,6 @@ name:dianjilingqu targetname:dianjilingqu
 
 name:confirm targetname:confirm
 
+can't find : confirm
 name:exitmumu_confirm targetname:exitmumu_confirm
 

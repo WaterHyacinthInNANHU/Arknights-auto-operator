@@ -86,7 +86,7 @@ class Arknights_Myserver(object):
             workstate += ['执行过程中发生错误']
             self.send(ws,'message',u'Arkights operator:没有对应命令')
         except:
-            # self.send(ws,'message',traceback.format_exc())
+            self.send(ws,'message',traceback.format_exc())
             workstate += ['执行过程中发生错误']
             self.send(ws,'message',u'Arkights Operator:执行过程中发生错误')
 
@@ -101,6 +101,7 @@ class Arknights_Myserver(object):
             exec(msg, {'ark': self.ark, 'ws': ws})
             self.send(ws,'message',u'Arkights Operator:执行完毕')
         except:
+            self.send(ws, 'message', traceback.format_exc())
             workstate += ['执行过程中发生错误']
             self.send(ws,'message',u'Arkights Operator:执行过程中发生错误')
 
@@ -130,7 +131,7 @@ class Arknights_Myserver(object):
                 self.send(ws,'message',u'Arkights operator:请设置正确的命令类型')
                 workstate += ['请设置正确的命令类型']
         except:
-            # self.send(ws,'message',traceback.format_exc())
+            self.send(ws,'message',traceback.format_exc())
             workstate += ['执行过程中发生错误']
         workstate += ['空闲中，等待命令']
 

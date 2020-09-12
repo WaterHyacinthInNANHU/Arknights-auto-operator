@@ -4,6 +4,7 @@ import time
 from getWords import baiduOCR
 import win32gui,win32api,win32com.client,win32con
 import os
+import traceback
 class ArknightsErr(Exception):
     pass
 class Arknights(object):
@@ -157,22 +158,25 @@ class Arknights(object):
         return True
 
     def exitMumu(self):
-        #####daily tasks
-        self.foucusOnTheWindow()
-        cnt = 0
-        self.backToMenu()
-        self.to("renwu", "renwu")
-        while cnt < 20:
-            self.delay(0.5)
-            if self.getTag('baochouyilingqu') != None:
-                break
-            if self.getTag('dianjilingqu') != None:
-                self.to('dianjilingqu', 'dianjilingqu')
-                self.to('confirm', 'confirm', timeoutforname=10,israiseErr=False)
-                cnt = 0
-            else:
-                cnt += 1
-        ######
+        try:
+            #####daily tasks
+            self.foucusOnTheWindow()
+            cnt = 0
+            self.backToMenu()
+            self.to("renwu", "renwu")
+            while cnt < 20:
+                self.delay(0.5)
+                if self.getTag('baochouyilingqu') != None:
+                    break
+                if self.getTag('dianjilingqu') != None:
+                    self.to('dianjilingqu', 'dianjilingqu')
+                    self.to('confirm', 'confirm', timeoutforname=10,israiseErr=False)
+                    cnt = 0
+                else:
+                    cnt += 1
+            ######
+        except:
+            self.log(traceback.format_exc())
         hwnd = win32gui.FindWindow(None, "明日方舟 - MuMu模拟器")
         if(hwnd==0):
             hwnd = win32gui.FindWindow(None, "MuMu模拟器")
