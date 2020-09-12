@@ -243,6 +243,7 @@ class Arknights(object):
                     self.to("login_relogconfirm", "login_relogconfirm")
                     self.to("login_zhanghaodenglu", "login_zhanghaodenglu")
                     self.to("login_focuspassword")
+                    win32api.LoadKeyboardLayout('00000401', 1)#change keyboard layout
                     self.delay(3)
                     self.typeStr(self.password)
                     self.to("login_denglu", "login_denglu", timeoutfortarget=60)
@@ -581,6 +582,7 @@ class Arknights(object):
         auto.screenshot().save(loc)
 
 if __name__ == "__main__":
+    # win32api.LoadKeyboardLayout('00000409', 1)
     ark = Arknights()
     # ark.foucusOnTheWindow()
     #     # ark.generateMaterialList()
