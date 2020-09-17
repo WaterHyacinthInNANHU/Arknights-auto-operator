@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 - After the operation starts, the operation information will be printed in the terminal and also saved in log.txt
 
-- The content in the generated `MaterialList.txt` can be imported by [Penguin Logistics Planner](https://penguin-stats.io/planner), saving yourself the trouble of adding existing materials
+- The content in the generated `MaterialList.txt` can be imported by [penguin statistics](https://penguin-stats.io/planner), saving yourself the trouble of adding existing materials
 
 - When running the program, ensure that the system resolution is 1920*1080, and the display ratio is 125%
 
