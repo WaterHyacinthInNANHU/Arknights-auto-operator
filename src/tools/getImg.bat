@@ -3,5 +3,7 @@ cd ..
 cd ..
 call ActivateEnv.bat
 cd /d %~dp0
-python getImg.py 
+for /L %%n in (1,0,10) do (
+python getImg.py
+)
 pause

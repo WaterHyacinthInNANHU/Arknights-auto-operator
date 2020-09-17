@@ -12,6 +12,7 @@ import keyboard
 #按空格，完成截图
 name = input("input name:")
 loc = r"..\\imgs\\"+name+".jpg"
+loc = loc.replace(' ','')
 print("loc="+loc)
 keyboard.wait(' ')
 pos1 = auto.position()
