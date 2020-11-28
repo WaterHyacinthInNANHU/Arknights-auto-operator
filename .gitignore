@@ -1,5 +1,3 @@
 .idea/
-
-src/.idea
-
-src/userconfig/*
+*.idea/
+src/userconfig/

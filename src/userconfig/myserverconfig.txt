@@ -1,2 +1,0 @@
-ws.email=""
-ws.password=""

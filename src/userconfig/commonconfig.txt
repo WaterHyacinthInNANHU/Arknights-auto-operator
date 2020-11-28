@@ -1,5 +1,0 @@
-ark.password = ""
-ark.APP_ID = ""
-ark.API_KEY = ""
-ark.SECRECT_KEY = ""
-ark.path = ""
