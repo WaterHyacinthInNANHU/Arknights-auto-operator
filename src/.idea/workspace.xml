@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="553c482d-3c33-4508-a7a7-4da4f85ffcf9" name="Default Changelist" comment="" />
+    <list default="true" id="553c482d-3c33-4508-a7a7-4da4f85ffcf9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkOperator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/GT-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/GT-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/dishuihuzhoubian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/login_error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/qibingyulieren.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/supplies/longmenshiqu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/supplies/longmenshiqu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/supplies/longmenwaihuan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/supplies/longmenwaihuan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/MaterialList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/MaterialList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/wordsImgs/MaterialName.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/wordsImgs/MaterialName.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/wordsImgs/MatrerialNumber.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/wordsImgs/MatrerialNumber.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/getImg.bat" beforeDir="false" afterPath="$PROJECT_DIR$/tools/getImg.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userconfig/ActivateEnv.bat" beforeDir="false" afterPath="$PROJECT_DIR$/userconfig/ActivateEnv.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userconfig/commonconfig.txt" beforeDir="false" afterPath="$PROJECT_DIR$/userconfig/commonconfig.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userconfig/myserverconfig.txt" beforeDir="false" afterPath="$PROJECT_DIR$/userconfig/myserverconfig.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Z6gaBBys1el8XDZ5iUroAoQdpz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -197,6 +219,17 @@
       <updated>1584165018376</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1596290030907">

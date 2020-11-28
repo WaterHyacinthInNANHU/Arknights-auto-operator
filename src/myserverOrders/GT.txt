@@ -1,0 +1,2 @@
+ark.activityCheckpoint('qibingyulieren','dishuihuzhoubian','GT-5',1)
+ark.activityCheckpoint('qibingyulieren','dishuihuzhoubian','GT-6',1)

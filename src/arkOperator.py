@@ -416,7 +416,31 @@ class Arknights(object):
         cnt = 0
         self.backToMenu()
         self.to("zuozhan","jiaomiezuozhan")
-        self.to("jiaomiezuozhan",part)
+        self.to("jiaomiezuozhan")
+
+        #find longmen
+        cnt=0
+        while True:
+            if(cnt>=20):
+                break
+            cnt+=1
+            if(self.getTag('yanguolongmen')==None):
+                self.drag(xdistance=-500,speed=500)
+            else:
+                break
+        if(cnt>=20):
+            cnt=0
+            while True:
+                if (cnt >= 20):
+                    return
+                cnt += 1
+                if (self.getTag('yanguolongmen') == None):
+                    self.drag(xdistance=500, speed=500)
+                else:
+                    break
+        self.to('yanguolongmen')
+
+        cnt = 0
         while True:
             cnt += 1
             self.to(part,"kaishixingdong")

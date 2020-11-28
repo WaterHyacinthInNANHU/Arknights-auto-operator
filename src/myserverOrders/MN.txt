@@ -1,0 +1,1 @@
+ark.activityCheckpoint('kazimierzmajor','joustingarena','MN-8',1)
