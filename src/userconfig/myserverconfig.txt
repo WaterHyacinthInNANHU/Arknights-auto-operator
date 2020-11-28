@@ -1,2 +1,2 @@
-ws.email="2641574067@qq.com"
-ws.password="YMX990404"
+ws.email=""
+ws.password=""
