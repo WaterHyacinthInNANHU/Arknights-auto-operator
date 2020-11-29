@@ -12,11 +12,12 @@ class ArknightsErr(Exception):
 
 
 class Arknights(object):
-    def __init__(self, password='', email='', APP_ID='', API_KEY='', SECRECT_KEY='', path=''):
+    def __init__(self, password='', account='', email='', APP_ID='', API_KEY='', SECRECT_KEY='', path=''):
         self.imgdirs = ['imgs\\common\\', 'imgs\\supplies\\', 'imgs\\chapters\\', 'imgs\\activities\\', 'imgs\\']
         self.shell = win32com.client.Dispatch("WScript.Shell")
         self.logfilepath = "output\\log.txt"
         self.log("Welcome back, doctor!")
+        self.account = account
         self.email = email
         self.password = password
         self.APP_ID = APP_ID
@@ -71,6 +72,10 @@ class Arknights(object):
         for char in str:
             auto.keyDown(char)
             auto.keyUp(char)
+
+    def typeKey(self,key):
+        auto.keyDown(key)
+        auto.keyUp(key)
 
     def drag(self, xstart=1020, ystart=160, xdistance=0, ydistance=0, speed=250):
         auto.moveTo(xstart, ystart)  # move mouse to the start position
@@ -342,13 +347,13 @@ class Arknights(object):
                 self.to("login_zhanghaodenglu", "login_zhanghaodenglu")
                 auto.click(1043, 602)  # click account bar
                 self.delay(2)
-                self.typeStr('backspace')   # clear account
-                self.typeStr(self.email)
-                self.typeStr('enter')  # confirm
+                self.typeKey('backspace')   # clear account
+                self.typeStr(self.account)
+                self.typeKey('enter')  # confirm
                 self.to("login_focuspassword")
                 self.delay(2)
                 self.typeStr(self.password)
-                self.typeStr('enter')  # confirm
+                self.typeKey('enter')  # confirm
                 self.to("login_denglu", "login_denglu", timeoutfortarget=60)
                 break
         cnt = 0
