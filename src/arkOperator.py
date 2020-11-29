@@ -125,14 +125,17 @@ class Arknights(object):
             self.to("navigator", "navigator_shouye")
             self.to("navigator_shouye", "navigator_shouye")
 
-    def findTag(self, level, max_drag=20):
+    def findTag(self, level, max_drag=20, start_from='left'):
         cnt = 0
         while True:
             if cnt >= max_drag:
                 break
             cnt += 1
             if self.getTag(level) is None:
-                self.drag(xdistance=-500, speed=500)
+                if start_from == 'left':
+                    self.drag(xdistance=-500, speed=500)
+                else:
+                    self.drag(xdistance=500, speed=500)
             else:
                 break
         if cnt >= max_drag:
@@ -142,7 +145,10 @@ class Arknights(object):
                     return
                 cnt += 1
                 if self.getTag(level) is None:
-                    self.drag(xdistance=500, speed=500)
+                    if start_from == 'left':
+                        self.drag(xdistance=500, speed=500)
+                    else:
+                        self.drag(xdistance=-500, speed=500)
                 else:
                     break
 
@@ -377,7 +383,7 @@ class Arknights(object):
         self.backToMenu()
         self.to("zuozhan", "zhuxian")
         self.to("zhuxian")
-        self.findTag(part)
+        self.findTag(part, start_from='right')
         self.to(part)
         self.findTag(level)
         cnt = 0
